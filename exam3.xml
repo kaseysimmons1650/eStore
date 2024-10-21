@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<favorite_movies>
+   <movie>
+       <name>Bohemian Rhapsody</name>
+       <release_year>2018</release_year>
+       <language>English</language>
+       <cast_members>Rami Malek, Lucy Boynton, Gwilym Lee, Ben Hardy, Joe Mazzello</cast_members>
+    </movie>
+   <movie>
+       <name>Don't Worry Darling</name>
+       <release_year>2022</release_year>
+       <language>English</language>
+       <cast_members>Harry Styles, Florence Pugh, Olivia Wilde, Nick Kroll, Chris Pine</cast_members>
+    </movie>
+    <movie>
+       <name>Harry Potter and the Sorcerer's Stone</name>
+       <release_year>2001</release_year>
+       <language>English</language>
+       <cast_members>Daniel Radcliffe, Rupert Grint, Emma Watson</cast_members>
+    </movie>
+</favorite_movies>

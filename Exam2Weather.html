@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="/~ksimmon1/CSS/project1.css">
+	<meta charset="utf-8">
+	<title>Exam 2</title>
+<body>
+	<img src="vinyl.png" alt="logo" class="center" height="250" width="250">
+	<script src="https://www.cs.unca.edu/~ksimmon1/umbrella.js"></script>
+
+	<table class="links">
+		<tr>
+			<td><a href="/~ksimmon1/companydescription.html">Company Description</a></td>
+
+			<td><a href="/~ksimmon1/sitemap.html">Website Map</a></td>
+
+			<td><a href="/~ksimmon1/contactpage.html">Contact Us</a></td>
+
+			<td><a href="/~ksimmon1/homepage.html">Home Page</a></td>
+		</tr>
+
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+
+	</table>
+
+<h1>Weather</h1>
+
+<p class="top">Enter the temperature of the day and whether it is raining.</p>
+
+<form id="weather" onsubmit= "umbrella()">
+	<p>Temperature Unit:</p>
+	<input type="radio" id="unit" name="unit" value="fahrenheit">
+	<label for="fahrenheit">Fahrenheit</label><br>
+	<input type="radio" id="unit" name="unit" value="celsius">
+	<label for="celsius">Celsius</label><br>
+	<p></p>
+	<label for="temp">Temperature of the Day:</label><br>
+	<input type="text" id="temp" name="temp"><br>
+	<p></p>
+	<p>Is it raining today?:</p>
+	<input type="radio" id="rain" name="rain" value="yes">
+	<label for="yes">Yes</label><br>
+	<input type="radio" id="rain" name="rain" value="no">
+	<label for="no">No</label><br>
+	<p></p>
+	<input type="submit" value="Submit" onsubmit="umbrella()"><br>
+	<input type="reset"><br>
+</form>
+</body>
+</html>

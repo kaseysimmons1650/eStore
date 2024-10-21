@@ -1,0 +1,14 @@
+/* style page */
+
+body {background-color: black; font-family: 'Figtree', sans-serif; color: white;}
+
+body.heading-image {
+  background-image: url("/~ksimmon1/Spotify/concert.jpg");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+h1{text-align: left; font-size: 90px}
+
+

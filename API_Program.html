@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>API Program Example</h2>
+
+<p>Enter your email address.</p>
+
+<input id="address" type="email" required>
+<button onclick="validateEmail()">OK</button>
+
+<p id="form"></p>
+
+<script>
+function validateEmail() {
+  const input = document.getElementById("address");
+  if (!input.checkValidity()) {
+    document.getElementById("form").innerHTML = input.validationMessage;
+  } else {
+    document.getElementById("form").innerHTML = "Input OK";
+  } 
+} 
+</script>
+
+</body>
+</html>
